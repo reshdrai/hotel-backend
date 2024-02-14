@@ -1,3 +1,7 @@
+
+#search_result{
+    margin-top: 6rem;
+}
 .first-container {
     text-align: center;
 }
@@ -12,6 +16,7 @@
 }
 .second-container{
     margin:2rem 0;
+    /* margin-top: 1rem; */
     padding:0 10px;
     display: flex;
     justify-content:space-between;

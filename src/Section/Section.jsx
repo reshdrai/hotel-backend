@@ -11,7 +11,7 @@ function Section() {
         <Route path='/' element={<Home/>}></Route>
         <Route path='/login' element={<Login/>}></Route>
         <Route path='/room_booking/:pict' element={<Room_booking/>}></Route>
-        <Route path='/search_result/:id/:category' element={<Search_result/>}></Route>
+        <Route path='/search_result/:id' element={<Search_result/>}></Route>
         <Route path='/filter' element={<Filter/>}></Route>
     </Routes>
   )
