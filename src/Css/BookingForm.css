@@ -1,0 +1,134 @@
+*, *::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-color: #000000;
+} */
+
+/* form *{
+    font-family: "Poppins" sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.6px;
+    outline: none;
+    border: none;
+} */
+.fuck{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    height:100vh;
+    width:100vw;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex; /* relevant part */
+    flex-direction: column; /* relevant part */
+    overflow: hidden; /* relevant part */
+    /* width: 320px; */
+    /* height: 320px; */
+    /* margin: 25% auto ; */
+    /* transform: translateY(-50%); */
+
+}
+.login-form{
+    background-color: rgba(255,255,255,0.13);
+
+    width: 520px;
+    backdrop-filter: blur(10px);
+    margin: 4rem auto;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 35px rgba(8, 7, 16, 0.6);
+    padding: 50px 35px;
+    border-radius: 10px;
+    /* height: 100%; relevant part */
+  overflow-y: auto; /* relevant part */
+  padding: 1rem 2rem;
+  background: #f9f9f9;
+    
+}
+.login-form .submit-cross-button button{
+    font-size: var(--large-font);
+    border: none;
+}
+
+ .login-form h3{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: center;
+} 
+
+ label{
+    display: block;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+::placeholder{
+    color: rgb(216, 219, 221);
+}
+.submit{
+    background-color: var(--main-color);
+    margin:2rem 0;
+    width:10rem;
+    color: #ffffff;
+    border: none;
+    height: 2.5rem;
+    border-radius: 20px;
+}
+.submit-button{
+    text-align: center;
+}
+@media screen and (max-width:550px){
+    input{
+        display: block;
+        height: 40px;
+        width: 100%;
+        background-color: rgba(255,255,255,0.07);
+        border-radius: 3px;
+        padding: 0 10px;
+        margin-top: 8px;
+        font-size: var(--small-font);
+        font-weight: 300;
+    }
+    .login-form{
+        background-color: rgba(255,255,255,0.13);
+    
+        width: 320px;
+        backdrop-filter: blur(10px);
+        margin: 4rem auto;
+        border: 2px solid rgba(255,255,255,0.1);
+        box-shadow: 0 0 35px rgba(8, 7, 16, 0.6);
+        padding: 50px 35px;
+        border-radius: 10px;
+        /* height: 100%; relevant part */
+      overflow-y: auto; /* relevant part */
+      padding: 1rem 2rem;
+      background: #f9f9f9;
+        
+    }
+    label{
+        display: block;
+        margin-top: 30px;
+        font-size: var(--small-font);
+        font-weight: 500;
+    }
+}
+
+  

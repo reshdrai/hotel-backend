@@ -1,0 +1,130 @@
+#room_booking{
+    /* background-color: rgb(77, 82, 75); */
+
+}
+
+.left-booking{
+    /* border: 1px solid red; */
+    height: 25rem;padding: 1rem;
+}
+.left-booking img{
+    object-fit: cover;
+    width:100%;
+    height: 100%;
+    border-radius: 20px;
+    /* margin:0 1rem 1rem 0; */
+}
+.right-booking{
+    padding: 1rem;
+}
+.top-booking .left-arrow i{
+    margin: 1rem 2rem;
+    font-size: large;
+    color: black;
+}
+.top-booking .left-arrow i:hover{
+cursor: pointer;
+}
+.top-booking{
+    margin:4rem 0;
+    padding:1rem;
+}
+.booking-content{
+    margin:0 2rem;
+    font-size: var(--large-font);
+}
+.booking-intro{
+    font-weight: var(--large-weight);
+}
+.booking-content .booking-right-profile img{
+    
+    width:2rem;
+    border-radius: 50%;
+    margin: 0 10px 0 0;
+}
+
+.room-con .a{
+    display: flex;
+
+    background-color: rgb(77, 82, 75);
+}
+.room-con .facilities{
+
+}
+.combine-pro{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin:10px 0; */
+}
+.profile-name{
+    font-size: var(--small-font);
+    font-weight: var(--large-weight);
+    /* margin:8px 0; */
+    color: var(--main-color);
+
+}
+.profile-name-2{
+    font-size: var(--small-font);
+    font-weight: var(--large-weight);
+    /* margin:8px 0; */
+    color: var(--main-color);
+
+}
+.down-profile-name-2{
+    font-size: var(--medium-font);
+    color: black;
+}
+.profile-name .down-profile-name{
+    font-size: var(--large-font);
+color: black;
+}
+
+.combine-profile .p{
+    padding: 0rem 0rem;
+}
+.booking-desc{
+    padding: 0px ;
+    margin: 0px;
+    font-size: var(--medium-font);
+    font-weight: var(--small-weight);
+}
+.your-offer{
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    width:10rem;
+    font-weight: var(--large-weight);
+    height:2.5rem;
+    margin:2rem 0 0 2rem;
+}
+.place-offer{
+    font-size: var(--medium-font);
+    background-color: var(--main-color);
+    border-color: var(--border-color);
+    width: 15rem;
+    height:2.4rem;
+    border-radius: 20px;
+    margin:0.6rem 2rem;
+}
+.booking-book-now{
+    font-size: var(--medium-font);
+    background-color: var(--main-color);
+    border-color: var(--border-color);
+    color: aliceblue;
+    width: 15rem;
+    height:2.4rem;
+    border-radius: 20px;
+    margin:0.6rem 2rem;
+}
+@media  screen and (max-width:840px){
+    .left-booking{
+        height: 15rem;
+    }
+    .booking-desc{
+        font-size: var(--small-font);
+        font-weight: var(--small-weight);
+    }
+    .booking-content{
+        margin:1rem 2rem 0 2rem;
+        font-size: var(--large-font);
+    }
+}

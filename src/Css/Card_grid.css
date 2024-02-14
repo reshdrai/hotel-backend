@@ -1,0 +1,311 @@
+/* Card_grid css */
+.txt-special_offer{
+    background-color: var(--main-color);
+    margin: 0.9rem;
+    padding:10px 8px;
+    border-radius: 10px;
+    font-size: var(--medium-font);
+    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.4);
+}
+.two-grids{
+    padding:4.2rem 2rem;
+}
+ div .row{
+margin:0 6px;
+justify-content: space-evenly;
+
+}
+.special_offer-card1{
+    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding:1rem;
+    text-align: center;
+    
+    margin: 0.8rem;
+}
+.txt-compliment{
+    font-size: var(--medium-font);
+}
+.special_offer-card1 .txt-byroomvista{
+    font-size: var(--small-font);
+    font-weight: var(--medium-weight);
+    text-align: center;
+    padding:0 0 1rem 0;
+}
+.special_offer-card1 img{
+    width:100%;
+    height:8rem;
+    border-radius: 6px;
+}
+.book_now{
+    width:100%;
+    height:2.2rem;
+    border-radius: 10px;
+    background-color: var(--main-color);
+    border: none;
+    color: var(--default-color);
+}
+.button-book{
+    margin:1rem 0;
+}
+
+
+/* CARD 2 INSIDE THE FIRST GRID */
+
+
+.below-special-offer .special-offer-card2{
+    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding:1rem ;
+    text-align: center;
+    width:1rem;
+    margin: 0.8rem 0.4rem;
+    background-color: var(--lighter-color);
+}
+.special-offer-card2 img{
+    width:100%;
+    height:8rem;
+    border-radius: 6px;
+}
+.special-offer-card2 .txt-new-room{
+    font-size: var(--medium-font);
+    font-weight: var(--large-weight);
+}
+.special-offer-card2 .txt-experience{
+    font-size: var(--small-font);
+    font-weight: var(--medium-weight);
+    text-align: center;
+    padding:0 0 1rem 0;
+}
+
+
+/* RIGHT GRID KNOWN AS TRENDING GRID */
+
+
+.trending-rooms{
+    /* width:62vw; */
+    margin:0 0.2rem 0 0;
+}
+.txt-trending-rooms{
+    background-color: var(--main-color);
+    margin: 0.8rem 0.8rem 0.7rem 0.8rem;
+    padding:8px;
+    border-radius: 10px;
+    /* height:2.4rem; */
+    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.4);
+}
+.right-grid-card1{
+    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin: 0.4rem;
+    padding: 0;
+    width:15rem;
+   
+    
+}
+
+.right-grid-card1 .right-grid-image img{
+    width:100%;
+    height:9rem;
+    object-fit:cover;
+
+    border-radius: 10px 10px 12px 12px;
+    cursor: pointer;
+   
+}
+.right-grid-card1 .content{
+    padding:0.6rem;
+    margin:0.6rem 0.8rem;
+    font-weight: var(--large-weight);
+}
+.right-grid-card1 .content i{
+    /* text-align: left; */
+    color: var(--main-color);
+    padding: 0.3rem;
+}
+.right-grid-card1 .small-txt{
+    font-weight: var(--medium-weight);
+    font-size: var(--small-font);
+}
+.cards{
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* INSIDE THE SECOND GRID AND BELOW TRENDING GRID KNOWN AS POPULAR ROOM GRID */
+
+
+.txt-popular-rooms{
+    margin: 0.8rem;
+   
+    padding:8px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.4);
+}
+
+/* .popular-rooms-image{
+    display: flex;
+} */
+.popular-rooms-image img{
+    width:100%;
+    height:12rem;
+    border-radius: 20px;
+    margin:0.4rem;
+    cursor: pointer;
+    
+}
+.popular-room1{
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.popular-room1 > .hover-parts{
+    position: absolute;
+    inset: 0;
+    padding:0.6rem;
+    background: rgb(255, 255, 255,.4);
+    text-align: center;
+    /* visibility: hidden; */
+    
+}
+.popular-room1 > .hoverparts,
+.popular-room1 > img{
+    transition: 200ms ease-in-out;
+}
+.txt-deluxe-room{
+    font-size: var(--medium-font);
+    
+    padding:1.5rem 0 4px 0;
+}
+.txt-below-deluxe{
+     font-weight: var(--medium-weight);
+     font-size: var(--small-font);
+     margin:0 0 1rem 0;
+}
+.book-now{
+    width:10rem;
+    height:2.2rem;
+    border-radius: 10px;
+    background-color: var(--main-color);
+    border: none;
+    color: var(--default-color);
+    margin:1rem 0 0 0;
+}
+.popular-room1:hover >img.blur{
+    filter: blur(2px);
+}
+.popular-room1 >.hover-parts.fade{
+    opacity: 0;
+}
+.popular-room1:hover >.hover-parts.fade{
+    opacity: 1;
+}
+
+
+/* RESPONSIVE ONES */
+
+
+@media screen and (max-width:1150px) {
+    .txt-special_offer{
+        margin: 0.8rem;
+        padding:6px;
+        border-radius: 10px;
+        font-size: var(--xsmall-font);
+    }
+    .two-grids{
+        padding:4.2rem 1rem;
+    }
+    .txt-compliment{
+        font-size: var(--xsmall-font);
+    }
+    .book_now{
+        font-size: var(--xsmall-font);
+    }
+    .button-book{
+        margin:0.4rem;
+    }
+    .special_offer-card1 .txt-byroomvista{
+        font-size: var(--xsmall-font);
+        font-weight: var(--medium-weight);
+        
+        padding:0 0 1rem 0;
+    }
+    .trending-rooms{
+       
+        margin:0 1rem 0 0;
+    }
+    .txt-deluxe-room{
+        font-size: var(--small-font);
+        padding:1.5rem 0 4px 0;
+    }
+    .book-now{
+        width:6rem;
+        color: var(--default-color);
+        margin:1rem 0 0 0;
+    }
+    .txt-below-deluxe{
+        font-weight: var(--xsmall-weight);
+        font-size: var(--small-font);
+        margin:0 0 1rem 0;
+   }
+   .special-offer-card2 .txt-experience{
+    font-size: var(--xsmall-font);
+    font-weight: var(--medium-weight);
+    
+    padding:0 0 1rem 0;
+}
+.special-offer-card2 .txt-new-room{
+    font-size: var(--xsmall-font);
+    font-weight: var(--large-weight);
+}
+}
+
+
+@media screen and (max-width:900px){
+    .txt-trending-rooms .row{
+        text-align: left;
+        margin: 0px;
+    }
+    .special_offers{
+        display: none;
+    }
+    .trending-rooms{
+        margin:1rem auto;
+    }
+    .popular-room1 > .hoverparts{
+        font-size: var(--xsmall-font);
+        font-weight: var(--medium-weight);
+    }
+    .right-grid-card1{
+        width:250px;
+    }
+}
+
+
+
+@media screen and (max-width:750px){
+    .popular-rooms{
+        margin:1rem auto;
+    }
+    .right-grid-card1{
+       
+        width:180px;
+       
+        
+    }
+}
+@media screen and (max-width:600px){
+    .right-grid-card1{
+        width:100%
+    }
+}
+
+
+
+
+
+
+

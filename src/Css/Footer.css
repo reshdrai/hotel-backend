@@ -1,0 +1,78 @@
+.footer .social-links ul{
+    display: flex;
+    font-weight: var(--small-weight);
+    justify-content: space-evenly;
+    padding: 0 0 0 4.6rem;
+    list-style: none;
+    font-size: var(--small-font);
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 6px 6px var(--default-color);
+}
+.social-links .roomvista-txt{
+    font-size: var(--medium-font);
+    padding: 1rem;
+}
+.social-links ul li{
+    padding: 1.2rem;
+    font-size: var(--small-font);
+}
+.footer .social-links li:hover{
+    font-weight: 400;
+}
+.footer-txt{
+    font-weight: var(--medium-weight);
+    padding:1rem;
+    font-size: var(--small-font);
+    margin:0 3rem 0 0;
+}
+@media screen and (max-width:670px) {
+    .footer .social-links ul{
+        display: flex;
+        font-weight: var(--small-weight);
+        justify-content: space-evenly;
+        padding: 0 0 0 2rem;
+        list-style: none;
+        
+    }
+    .social-links .roomvista-txt{
+        font-size: var(--small-font);
+        padding: 1rem;
+    }
+    .footer-txt{
+        font-weight: var(--medium-weight);
+        font-size: var(--small-font);
+        padding:1rem;
+        margin:0 3rem 0 0;
+    }
+    .social-links ul li{
+        padding: 1 0.6rem;
+    }
+}
+@media screen and (max-width:500px){
+    .footer .social-links ul{
+        display: flex;
+        font-weight: var(--small-weight);
+        justify-content: space-evenly;
+        padding: 0 0 0 0.2rem;
+        list-style: none;
+        
+    }
+    .social-links .roomvista-txt{
+        font-size: var(--xsmall-font);
+        padding: 1rem 0.2rem;
+    }
+    .social-links ul li{
+        padding: 1 0.4rem;
+        font-size: var(--xsmall-font);
+    }
+    .footer-txt{
+        font-weight: var(--medium-weight);
+        font-size: var(--xsmall-font);
+        padding:1rem 0.4rem;
+        margin:0 0.4rem 0 0;
+    }
+}

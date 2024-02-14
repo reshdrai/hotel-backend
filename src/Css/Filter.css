@@ -1,0 +1,259 @@
+.topon-container{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.8);
+}
+.intro-container{
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--large-font);
+    font-weight: var(--large-weight);
+    margin:0 0 1rem 0;
+}.intro-container .cross-button{
+    font-size: large;
+    border: none;
+}
+.filter-container{
+    background-color: rgba(255,255,255,0.13);
+    height: 660px;
+    width: 540px;
+    backdrop-filter: blur(10px);
+    margin: 4rem auto;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 35px rgba(8, 7, 16, 0.6);
+    padding: 50px 35px;
+    border-radius: 10px;
+}
+.price-range-button-txt{
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--small-font);
+    font-weight: var(--small-weight);
+    margin:1rem 0 0.4rem 0;
+}
+.price-range-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 2rem 0;
+}
+.price-range-buttons .min-price button{
+    border-radius: 20px;
+    width:10rem;
+    font-weight: var(--small-weight);
+    
+}
+.price-range-buttons .max-price button{
+    border-radius: 20px;
+    width:12rem;
+    font-weight: var(--small-weight);
+}
+.property-types{
+    display: flex;
+    justify-content: space-around;
+    margin:1rem 0;
+}
+.property-types .property-type-card{
+    text-align: center;
+    /* background-color: var(--border-color); */
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.4);
+    padding: 1.4rem;
+    margin:0 4px;
+    border-radius: 20px;
+}
+.property-type-card .property-type-card-hotel{
+    text-align: center;
+    /* background-color: var(--border-color); */
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.4);
+    padding: 1.4rem;
+    border-radius: 20px;
+}
+.property-hotel-txt{
+    font-weight: var(--small-weight);
+}
+.property-type-card .property-hotel-icon {
+    margin: 0  0 0.5rem 0; 
+}
+.property-types .property-type-card:hover .property-hotel-txt{
+font-weight: 400;
+}
+.number-people-txt{
+    display: flex;
+    
+    font-size: var(--small-font);
+    font-weight: var(--small-weight);
+    margin:1rem 0 0.4rem 0;
+}
+.nr-people-txt{
+    padding:0 1.4rem;
+}
+.entry-types{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 10px 0;
+}
+.entry-types .nr-people{
+    width:5rem;
+    border-radius: 20px;
+    height:2rem;
+    border: 1px solid grey;
+}
+.check-box-container{
+    font-size: var(--small-font);
+    display: flex; 
+}
+.checkbox-1{
+    width:1rem;
+    margin: 0;
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+}
+
+.single-bed-txt{
+    margin: 12px 0 0 4px;
+    padding: 2px 12px 0 0;
+    font-size: var(--small-font);
+    font-weight: var(--medium-weight);
+}
+.double-bed-txt{
+    margin: 12px 0 0 4px;
+    padding: 2px 0px 0 0;
+    font-size: var(--small-font);
+    font-weight: var(--medium-weight);
+}
+.free-cancelation-txt{
+    margin: 12px 0 0 6px;
+    padding: 2px 12px 0 0;
+    font-size: var(--small-font);
+    font-weight: var(--medium-weight);
+}
+.inside-others{
+    width:1rem;
+    margin: 0;
+}
+.others-checkbox1{
+    display: flex;
+}
+.others-checkbox-container{
+    display: flex;
+    justify-content: space-around;
+}
+input[type="checkbox"]{
+    accent-color: var(--main-color);
+}
+.show-result-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.6rem 0 0 0;
+}
+.show-result-container .show-results button{
+    padding:0.6rem;
+    border-radius: 20px;
+    width:14rem;
+    background-color:var(--main-color);
+    color: #ffffff;
+    border: none;
+}
+.clear-txt{
+    font-weight: var(--large-weight);
+    padding:auto 0;
+    cursor: pointer;
+    font-size: var(--medium-font);
+}
+@media screen and (max-width:550px){
+    .filter-container{
+        background-color: rgba(255,255,255,0.13);
+        height: 640px;
+        width: 330px;
+        backdrop-filter: blur(10px);
+        margin: 1rem auto;
+        border: 2px solid rgba(255,255,255,0.1);
+        box-shadow: 0 0 35px rgba(8, 7, 16, 0.6);
+        padding: 50px 35px;
+        border-radius: 10px;
+        /* overflow-y: auto;  */
+    }
+    .price-range-buttons{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0 0.8rem 0;
+    }
+    .price-range-buttons .min-price button{
+        border-radius: 20px;
+        width:5rem;
+        font-weight: var(--small-weight);
+        
+    }
+    .price-range-buttons .max-price button{
+        border-radius: 20px;
+        width:6rem;
+        font-weight: var(--small-weight);
+    }
+    .property-type-card-hotel{
+        display: none;
+    }
+    .intro-container{
+        display: flex;
+        justify-content: space-between;
+        font-size: var(--large-font);
+        font-weight: var(--large-weight);
+        margin:0 0 0.4rem 0;
+    }
+    .price-range-button-txt{
+        display: flex;
+        justify-content: space-between;
+        font-size: var(--small-font);
+        font-weight: var(--small-weight);
+        margin:0.2rem 0 0.4rem 0;
+    }
+    .property-types{
+        display: flex;
+        justify-content: space-around;
+        margin:0.4rem 0;
+    }
+    .free-cancelation-txt{
+        margin: 6px 0 0 6px;
+        padding: 2px 12px 0 0;
+        font-size: var(--small-font);
+        font-weight: var(--medium-weight);
+    }
+    .show-result-container{
+        display: flex;
+        justify-content: space-between;
+        margin: 0.4rem 0 0 0;
+    }
+    .show-result-container .show-results button{
+        padding:0.6rem;
+        border-radius: 20px;
+        width:8rem;
+        background-color:var(--main-color);
+        color: #ffffff;
+        border: none;
+    }
+    .number-people-txt{
+        display: flex;
+        font-size: var(--small-font);
+        font-weight: var(--small-weight);
+        margin:0.4rem 0 0.4rem 0;
+    }
+    .entry-types .nr-people{
+        width:3rem;
+        border-radius: 20px;
+        height:2rem;
+        margin: 2px 4px;
+        border: 1px solid grey;
+        
+    }
+    .entry-types{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 0 5px 0;
+    }
+}

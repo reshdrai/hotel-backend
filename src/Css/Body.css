@@ -1,0 +1,122 @@
+
+.context{
+    margin-top: 5rem;
+     background-image: url('https://photopedia.in/wp-content/uploads/2017/12/wide-angle.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100%;
+    /* Ensures the background extends through the entire page */
+    min-height: 90vh; /*vh unit represents a percentage of the viewport height
+    /* Optional: Fix the background image */
+    /* background-attachment: fixed; */
+    /* background-position: absolute; */
+    padding:4rem;
+    display: flex;
+    margin-bottom: 5rem;
+    
+}
+
+@media  screen and (max-width:840px){
+    .context{
+        min-height: 30vh;
+        margin-bottom: 0rem;
+    }
+}
+.introduction{
+    color: white;
+    font-size:var(--xl-font);
+    font-weight: var(--large-weight);
+    margin: 4rem 5rem;
+}
+.image {
+    text-align: center;
+}
+.image img{
+    width:22rem;
+}
+.txt-browse{
+    font-size: var(--medium-font);
+    font-weight: var(--medium-weight);
+    margin:0 0 2.6rem 0;
+}
+
+.searched{
+    height: 2.5rem;
+    font-size: var(--medium-font);
+    font-weight: var(--medium-weight);
+    width:25vw;
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+}
+.bton{
+    height:2.5rem;
+    background-color: var(--main-color);
+    color: white;
+    border: 1px solid var(--border-color);
+    width:5rem;
+    border-radius: 10px;
+    font-weight: var(--medium-weight);
+    font-size: var(--small-font);
+    margin: 8px 0 0px 10px;
+}
+.search-button{
+    display: flex;
+}
+@media  screen and (max-width:840px){
+    .image img{
+        width:15rem;
+    }
+    .introduction{
+        font-size:var(--medium-font);
+        font-weight: var(--large-weight);
+        margin: 0rem;
+    }
+    .txt-browse{
+        font-size: var(--small-font);
+        font-weight: var(--small-weight);
+        margin:0 0 1.6rem 0;
+    }
+    .bton{
+        height:1.5rem;
+        background-color: var(--main-color);
+        width:4rem;
+        font-weight: var(--medium-weight);
+        font-size: var(--small-font);
+        
+    }
+    .searched{
+        height: 1.5rem;
+        font-size: var(--small-font);
+        font-weight: var(--medium-weight);
+        width:21vw;
+        
+    }
+}
+@media  screen and (max-width:610px){
+    .context{
+        padding:2rem;
+        display: flex;
+        
+    }
+    .image img{
+        width:7.6rem;
+    }
+    .searched{
+        height: 1rem;
+        font-size: var(--xsmall-font);
+        font-weight: var(--medium-weight);
+        width:11vw;
+    }
+    .bton{
+        height:1rem;
+        background-color: var(--main-color);
+        width:3rem;
+        font-weight: var(--medium-weight);
+        font-size: var(--xsmall-font);
+        
+    }
+}
+
+
