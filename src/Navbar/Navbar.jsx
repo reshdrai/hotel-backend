@@ -44,12 +44,12 @@ function Navbar() {
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex me-5" >
         
         <li class="nav-item">
-          <a class="nav-link px-3 text-light" href="#">Home</a>
+         <Link to='/'> <a class="nav-link px-3 text-light">Home</a></Link>
         </li>
         <li class="nav-item">
           <a class="nav-link px-3 text-light" href="#">About Us</a>
         </li><li class="nav-item">
-          <a class="nav-link px-3 text-light" href="#">Category</a>
+          <Link to='search_result'><a class="nav-link px-3 text-light">Category</a></Link>
         </li><li class="nav-item">
           <a class="nav-link px-3 text-light" href="#">Contact Us</a>
         </li><li class="nav-item">

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Categories from './Categories'
 
 function Body() {
@@ -12,7 +13,7 @@ function Body() {
         <div className='txt-browse'>Browse rooms by rate,type and availability</div>
 
         <div className="search-button">
-        <button  className="bton">Book Now</button>
+       <Link to='search_result'> <button className="bton">Book Now</button></Link>
         </div>
         
         </div>
