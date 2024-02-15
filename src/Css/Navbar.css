@@ -27,7 +27,15 @@
 }
 
 .nav-bg{
-    background-color: black;
+    background-color: var(--main-color);
+}
+.nav-bg .image-logo{
+    background-image: 
+    linear-gradient(to bottom,var(--main-color),var(--main-color)),
+    url('https://i.ibb.co/SKnrzWQ/logo.jpg');
+  /* Ensure the background covers the div and is centered */
+  background-size: cover;
+  background-position: center;
 }
 .nav-bg .nav-link:hover{
     text-decoration: none;

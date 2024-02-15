@@ -36,7 +36,7 @@ function Navbar() {
 
 <nav class="nav-bg fixed-top navbar navbar-expand-lg bg-body-tertiary navbar-light ">
   <div class="container-fluid">
-  <Link to='/'><a class="navbar-brand px-4 ms-5"><img src="https://i.ibb.co/SKnrzWQ/logo.jpg" alt="" width="150"/></a></Link>
+  <Link to='/'><a class="image-logo navbar-brand px-4 ms-5"><img src="" alt="" width="150"/></a></Link>
     <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fa-solid fa-bars"></i>
     </button>
