@@ -12,7 +12,7 @@
 }
  div .row{
 margin:0 6px;
-justify-content: space-evenly;
+/* justify-content: space-evenly; */
 
 }
 .special_offer-card1{
@@ -84,12 +84,13 @@ justify-content: space-evenly;
 
 .trending-rooms{
     /* width:62vw; */
-    margin:0 0.2rem 0 0;
+    margin:0 0.2rem 0 6rem;
 }
 .txt-trending-rooms{
     background-color: var(--main-color);
-    margin: 0.8rem 0.8rem 0.7rem 0.8rem;
-    padding:8px;
+    margin: 0.8rem 0.8rem 0.7rem 0;
+    padding:10px 0 10px 10px;
+    /* width: 30vw; */
     border-radius: 10px;
     /* height:2.4rem; */
     box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.4);
@@ -97,9 +98,9 @@ justify-content: space-evenly;
 .right-grid-card1{
     box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.4);
     border-radius: 10px;
-    margin: 0.4rem;
+    margin: 1rem 2rem;
     padding: 0;
-    width:15rem;
+    /* width:15rem; */
    
     
 }

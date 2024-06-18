@@ -3,6 +3,7 @@ import { Link, useParams , } from 'react-router-dom'
 import Data from '../Apis/Data'
 import BookingForm from './BookingForm'
 import NewContext from './NewContext'
+import Categories2 from './Categories2'
 function Room_booking() {
   let {pict} = useParams()
   const getid = Data.filter((x)=>x.id === Number(pict))
@@ -49,7 +50,7 @@ function Room_booking() {
                 <div className="booking-content">
                     <div className="booking-intro">{x.title}</div>
                     <div className="combine-profile">
-                    {/* <div className="booking-right-profile"><img src="https://cdn1.vectorstock.com/i/1000x1000/27/80/humanoid-robot-profile-icon-vector-19312780.jpg" /></div> */}
+                    
                     <div className="row d-flex">
                       <div className="c col-9">
                       <div className="profile-name">Room Type <br/>
@@ -142,6 +143,7 @@ function Room_booking() {
 
     </section>
     {/* </div> */}
+    <Categories2/>
     </>
     </NewContext.Provider>
   )

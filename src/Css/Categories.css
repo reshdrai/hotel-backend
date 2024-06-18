@@ -1,13 +1,29 @@
+.categories2{
+    font-size: var(--large-font);
+    /* text-align: center; */
+    font-weight: var(--large-weight);
+    margin: 0 2.6rem;
+}
 .categories{
     font-size: var(--large-font);
     text-align: center;
     font-weight: var(--large-weight);
+    /* margin: 0 2.6rem; */
 }
 .rooms{
    
     padding:1rem 0;
     display: flex;
     justify-content: space-evenly;
+
+    
+}
+.rooms2{
+   
+    padding:1rem 0;
+    display: flex;
+    /* justify-content: space-evenly; */
+
     
 }
 .combine-categories{
@@ -15,6 +31,19 @@
     background-color: var(--border-color);
     padding:1rem 0;
     margin:1rem 0.4rem;
+    border-radius: 10px;
+    text-align: center;
+    height:10.5rem;
+    font-size: var(--medium-font);
+    font-weight: var(--medium-weight);
+    cursor: pointer;
+    
+}
+.combine-categories2{
+    width: 12rem;
+    background-color: var(--border-color);
+    padding:1rem 0;
+    margin:1rem 1.4rem 4rem 1.4rem;
     border-radius: 10px;
     text-align: center;
     height:10.5rem;

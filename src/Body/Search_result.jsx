@@ -5,6 +5,7 @@ import Filter from './Filter';
 import { useParams } from 'react-router-dom';
 import Data from '../Apis/Data';
 import { Link } from 'react-router-dom';
+import Categories from './Categories';
 
 function Search_result() {
     const { id, category } = useParams();
@@ -106,6 +107,7 @@ function Search_result() {
                         </div>
                     </div>
                 </section>
+               
             </>
         </NewContext.Provider>
     );

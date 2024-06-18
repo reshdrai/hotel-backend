@@ -28,6 +28,12 @@
 
 .nav-bg{
     background-color: var(--main-color);
+    
+   
+}
+
+.nav-bg ul li a{
+cursor: pointer;
 }
 .nav-bg .image-logo{
     background-image: 
@@ -42,8 +48,9 @@
     color: rgb(177, 21, 21);
 }
 .container-fluid{
-    border: 1px solid var(--default-color);
-    box-shadow: 3px 3px 3px var(--default-color);
+    /* border: 1px solid var(--default-color); */
+    /* box-shadow: 3px 3px 3px var(--default-color); */
+   
     border-radius: 4px;
 }
 .navbar-searched{

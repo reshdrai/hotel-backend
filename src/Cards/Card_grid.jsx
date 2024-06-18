@@ -52,7 +52,7 @@ function Card_grid() {
 
                     {/* Right Grid */}
                     
-                <div className="trending-rooms col-9">
+                <div className="trending-rooms col-8">
                 
                     <div className="row">
                 <div className="txt-trending-rooms col">&nbsp;<i class="fa-solid fa-user-large"></i> &nbsp;Trending Rooms</div></div>

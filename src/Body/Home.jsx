@@ -15,7 +15,7 @@ function Home() {
     <Categories/>
     <Card_grid/>
     {/* <Star/> */}
-    <Reviews/>
+    {/* <Reviews/> */}
     <Contactme/>
     {/* <Check/> */}
     </div>

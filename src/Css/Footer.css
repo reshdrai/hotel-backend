@@ -11,6 +11,9 @@
     display: flex;
     justify-content: space-between;
     box-shadow: 0px 0px 6px 6px var(--default-color);
+    /* position: absolute;
+    width: 100vw;
+    bottom: 0; */
 }
 .social-links .roomvista-txt{
     font-size: var(--medium-font);

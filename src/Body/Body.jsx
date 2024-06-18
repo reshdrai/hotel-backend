@@ -13,7 +13,7 @@ function Body() {
         <div className='txt-browse'>Browse rooms by rate,type and availability</div>
 
         <div className="search-button">
-       <Link to='search_result'> <button className="bton">Book Now</button></Link>
+       {/* <Link to='search_result'> <button className="bton">Book Now</button></Link> */}
         </div>
         
         </div>
